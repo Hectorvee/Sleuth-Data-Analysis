@@ -1,4 +1,4 @@
-# Statistical Sleuth Projects
+# Sleuth Data Analysis
 
 ## Overview
 This repository contains a collection of case studies and exercises derived from *The Statistical Sleuth: A Course in Methods of Data Analysis* (Third Edition) by Fred L. Ramsey and Daniel W. Schafer. Each case study illustrates various statistical analysis techniques, utilizing R and RMarkdown to promote reproducible research.
@@ -36,7 +36,7 @@ To reproduce the analyses or run the RMarkdown files, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/Hectorvee/Statistical-Sleuth-Projects.git
+   git clone https://github.com/Hectorvee/Sleuth-Data-Analysis.git
    ```
    
 2. **Set Up Your R Environment**:
