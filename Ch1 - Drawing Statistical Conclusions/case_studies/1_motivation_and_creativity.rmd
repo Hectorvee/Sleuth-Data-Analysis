@@ -1,0 +1,34 @@
+---
+title: "Motivation and Creativity—A Randomized Experiment"
+author: "&copy; Hector Mathonsi"
+date: "15 November 2024"
+output:
+    html_notebook:
+        theme: flatly
+        highlight: tango
+        toc: true
+        toc_float: true
+---
+
+-----
+
+# Abstract
+The purpose of this analysis is to demonstrate the application of statistical methods outlined in The Statistical Sleuth by Fred Ramsey and Daniel Schafer. Using a dataset provided in the book, we conduct exploratory data analysis, summarize the key characteristics of the data, and apply appropriate statistical models to investigate the relationships between variables. The results highlight key patterns and provide insights that reinforce the theoretical foundations of the statistical methods. This analysis serves as a practical exercise in data exploration, hypothesis testing, and model building, showcasing the utility of these techniques in solving real-world problems.
+
+# Data Source
+The dataset used in this analysis is provided in The Statistical Sleuth: A Course in Methods of Data Analysis by Fred Ramsey and Daniel Schafer. It is included as part of the examples and exercises to illustrate various statistical methods and concepts. All rights to the dataset are retained by the authors and the publishers, and the data is used here solely for educational purposes.
+
+# Import and View Data
+
+```{r}
+motivation_creativity_data <- read.csv('../../data/case0101.csv', header = TRUE) # Import the dataset
+motivation_creativity_data
+```
+
+## Summary Statistics
+
+```{r}
+summary(motivation_creativity_data)   # Summary statistics for all variables
+head(data)     # Display the first few rows of the dataset
+str(data)      # Display the structure of the dataset
+```
